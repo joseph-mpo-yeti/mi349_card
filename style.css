@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff1db;
+}
+
+.card {
+    width: 90%;
+    max-width: 500px;
+    margin: 150px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0.5px 2px 6px -2px #737373;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 1.7rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#profile-img {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -75px;
+    box-shadow: 0.5px 2px 6px -2px #000000;
+}
+
+li img {
+    height: 35px;
+    width: 35px;
+    margin: 10px
+}
