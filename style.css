@@ -45,5 +45,12 @@ ul {
 li img {
     height: 35px;
     width: 35px;
-    margin: 10px
+    margin: 10px;
+    opacity: .6;
+}
+
+li img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
 }
